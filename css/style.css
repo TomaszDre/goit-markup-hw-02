@@ -1,17 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 
- @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
-
-
-
-  body {font-family: "Roboto", sans-serif; color: var(--brand-color-black); background-color: var(--background-page-color);}
-  a:hover {color: rgb(0, 81, 255);}
-  button:hover {color: rgb(0, 81, 255);}
-  .button {font-size: 10px; color: rgb(0, 0, 0);}
-  span {color: #2196F3; font-size: 26px;}
-  menu {background-color: #ececec;}
-  :root {--backgroung-page-color: #e5e5e5; --brand-color-blue: #2196f3; --brand-color-background: #2f303a; --brand-color-black: #212121; --brand-color-grey: #f5f4fa; --brand-color-default: #ffffff;}
-  menu-logo-link {color: #000; font-family: Raleway; font-weight: 700px; font-size: 26px; line-height: 1.2; text-decoration: none;}
-  menu-logo {color: var(--brand-color-blue); font-family: Raleway; font-weight: 700px; font-size: 26px; line-height: 1.2; text-decoration: none;}
-  button {cursor: pointer;}
-a:focus {color: green;}
-a:active, button:active {background-color: red;}
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--brand-color-black);
+    background-color: var(--background-page-color);
+}
+a:hover {
+    color: rgb(0, 81, 255);
+}
+button:hover {
+    color: rgb(0, 81, 255);
+}
+.button {
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+}
+span {
+    color: #2196f3;
+    font-size: 26px;
+}
+menu {
+    background-color: #ececec;
+}
+:root {
+    --backgroung-page-color: #e5e5e5;
+    --brand-color-blue: #2196f3;
+    --brand-color-background: #2f303a;
+    --brand-color-black: #212121;
+    --brand-color-grey: #f5f4fa;
+    --brand-color-default: #ffffff;
+}
+menu-logo-link {
+    color: #000;
+    font-family: Raleway;
+    font-weight: 700px;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+menu-logo {
+    color: var(--brand-color-blue);
+    font-family: Raleway;
+    font-weight: 700px;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+a:focus {
+    color: green;
+}
+a:active,
+button:active {
+    background-color: var(--brand-color-blue);
+}
