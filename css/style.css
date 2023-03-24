@@ -2,10 +2,10 @@
 
 :root {
     --backgroung-page-color: #e5e5e5;
-    --brand-color-blue: #2196f3;
+    --brand-color-primary: #2196f3;
     --brand-color-background: #2f303a;
-    --brand-color-black: #212121;
-    --brand-color-grey: #f5f4fa;
+    --brand-color-secondary: #212121;
+    --brand-color-ordinary: #f5f4fa;
     --brand-color-default: #ffffff;
 }
 body {
