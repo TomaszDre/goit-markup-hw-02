@@ -53,6 +53,12 @@ menu {
     line-height: 1.2;
     text-decoration: none;
 }
+.logo2 { color: #ffffff;
+    font-family: Raleway;
+    font-weight: 700px;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;}
 
 button {
     cursor: pointer;
