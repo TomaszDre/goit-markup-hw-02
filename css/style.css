@@ -21,6 +21,7 @@ button:hover {
     color: #ffffff;
 }
 .button {
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -42,7 +43,7 @@ span {
     font-size: 26px;
 }
 menu {
-    background-color: #e5e5e5;
+    background: #FFFFFF;
 }
 
 .logo {
